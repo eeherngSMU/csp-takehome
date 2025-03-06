@@ -10,6 +10,7 @@ React works by detecting if there are changes to the object reference
 Thus we have to pass a completely new object to setUser
 
 we can do so by getting all existing properties of the current object using spread operator while making sure to pass the updated age,
+
  and return it as a completely new object
 
 ```javascript
@@ -35,7 +36,7 @@ and when we reach the correct object, we edit the object
 
 and when we return the new array, it will contain the updated object
 
-To iterate through an 
+
 
 ```javascript
 
@@ -82,7 +83,7 @@ Installation & Running the App
 1️⃣ Clone the Repository
 
 git clone https://github.com/eeherngSMU/csp-takehome.git
-cd case-study-3/web-app
+cd csp-takehome/case-study-3/web-app
 
 
 2️⃣ Install Dependencies
